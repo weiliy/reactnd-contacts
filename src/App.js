@@ -23,7 +23,7 @@ class App extends Component {
     ContactsAPI.remove(contact);
   }
   render() {
-    const { screen, contacts } = this.state;
+    const { contacts } = this.state;
 
     return (
       <div >
